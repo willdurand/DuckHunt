@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<project>
+  <!-- Output SWF options -->
+  <output>
+    <movie disabled="False" />
+    <movie input="" />
+    <movie path="duckhunt.swf" />
+    <movie fps="30" />
+    <movie width="400" />
+    <movie height="400" />
+    <movie version="9" />
+    <movie background="#FFFFFF" />
+  </output>
+  <!-- Other classes to be compiled into your SWF -->
+  <classpaths>
+    <class path="." />
+  </classpaths>
+  <!-- Build options -->
+  <build>
+    <option directives="" />
+    <option flashStrict="False" />
+    <option mainClass="DuckHunt" />
+    <option override="False" />
+    <option verbose="True" />
+    <option additional="" />
+  </build>
+  <!-- haxelib libraries -->
+  <haxelib>
+    <library name="feffects" />
+  </haxelib>
+  <!-- Class files to compile (other referenced classes will automatically be included) -->
+  <compileTargets>
+    <!-- example: <compile path="..." /> -->
+  </compileTargets>
+  <!-- Assets to embed into the output SWF -->
+  <library>
+    <asset path="cible.png" id="Cible" update="cible.png" />
+    <asset path="fond.png" id="Fond" update="fond.png" />
+    <asset path="canard_mort.png" id="CanardMort" update="canard_mort.png" />
+    <asset path="canard_vivant.png" id="CanardVivant" update="canard_vivant.png" />
+    <asset path="tir.mp3" update="tir.mp3" />
+    <asset path="canard_vivant_up.png" id="CanardVivantUp" />
+  </library>
+  <!-- Paths to exclude from the Project Explorer tree -->
+  <hiddenPaths>
+    <!-- example: <hidden path="..." /> -->
+  </hiddenPaths>
+  <!-- Executed before build -->
+  <preBuildCommand />
+  <!-- Executed after build -->
+  <postBuildCommand alwaysRun="False" />
+  <!-- Other project options -->
+  <options>
+    <option showHiddenPaths="False" />
+    <option testMovie="ExternalPlayer" />
+  </options>
+</project>
